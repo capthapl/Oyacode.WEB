@@ -1,0 +1,73 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI'
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+#header {
+    background-image: url("../images/header_background.jpeg");
+    background-size: cover;
+    background-position: center center;
+    height: 650px;
+}
+
+#header_menu
+{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 300px 10px 300px;
+    color: white;
+}
+
+#header_menu > span
+{
+    width: 200px;
+    font-weight: bold;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+#header_menu > #header_links
+{
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+#header_links
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#header_links > a
+{
+    align-self: center;
+    padding-left: 50px;
+    cursor: pointer;
+}
+
+#header_company_description_header
+{
+    text-align:center;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin-top: 150px;
+}
+
+#header_company_description_subheader {
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    margin-top: 20px;
+}
