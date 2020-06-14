@@ -1,7 +1,7 @@
 ﻿* {
     padding: 0;
     margin: 0;
-    font-family: 'Segoe UI'
+    font-family: 'Open Sans','Segoe UI';
 }
 
 .section {
@@ -70,4 +70,20 @@
     font-size: 35px;
     color: white;
     margin-top: 20px;
+}
+
+#header_contact_us_header
+{
+    width:230px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: #FFB560E0;
+    align-self: center;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
 }
