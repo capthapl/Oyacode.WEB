@@ -1,0 +1,198 @@
+﻿@page
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/style.css" />
+    <title>Index</title>
+</head>
+<body>
+    <div id="header_links_slide_close">X</div>
+
+    <div id="header_menu_slide">
+        <div id="header_links_slide">
+            <a class='mobile_link' href="#header" style="color: #015f98 !important;">Przegląd</a>
+            <a class='mobile_link' href="#offer">Oferta</a>
+            <a class='mobile_link' href="#what_we_use">Technologie</a>
+            <a class='mobile_link' href="#contact_us">Kontakt</a>
+        </div>
+    </div>
+
+    <div class="section" id="header">
+        <div id="header_menu">
+            <span>Oyacode</span>
+            <div id="header_links">
+                <a href="#offer">OFERTA</a>
+                <a href="#what_we_use">TECHONOLOGIE</a>
+                <a href="#contact_us">KONTAKT</a>
+            </div>
+            <img id="header_menu_mobile" src="~/images/hamburger_button.png" />
+
+        </div>
+        <div id="header_company_description_header">
+            Rozwiązania IT dla twojego biznesu
+        </div>
+        <div id="header_company_description_subheader">
+            <p>Aplikacje mobilne, webowe i desktopowe,</p>
+            <p>wszystko w zasięgu ręki</p>
+        </div>
+        <a link="#" id="header_contact_us_header">Napisz do nas</a>
+    </div>
+    <section class="section" id="offer">
+        <header>
+            Usługi dostosowane do twoich potrzeb
+        </header>
+        <div id="offer_section">
+            <div class="offer_group">
+                <div class="offer_element">
+                    <span>Aplikacje mobilne</span>
+                    <p>
+                        Profesjonalne wykonanie i wsparcie
+                        najnowszych technologii.
+                        Oferujemy natywne aplikacje
+                        na platformę Android jak i aplikacje
+                        hybrydowe działające na systemach
+                        iOS & Android.
+                    </p>
+                </div>
+                <div class="offer_element">
+                    <span>Aplikacje desktopowe</span>
+                    <p>
+                        Standardowe aplikacje instalowane
+                        bezpośrednio na komputerze.
+                        Ten typ aplikacji jest częstym
+                        wyborem dla osób potrzebujących
+                        rozwiązania dla swoich pracowników
+                    </p>
+                </div>
+            </div>
+
+            <div class="offer_group">
+                <div class="offer_element">
+                    <span>Aplikacje internetowe</span>
+                    <p>
+                        Oferujemy skalowalne i wydajne
+                        rozwiązania do których wymagana
+                        jest tylko i wyłączenie przeglądarka
+                        internetowa.  Aplikacje internetowe
+                        są idealnym wyborem dla biznesu który
+                        ceni prostotę i nowoczesny tryb pracy.
+                    </p>
+                </div>
+                <div class="offer_element">
+                    <span>Strony WWW</span>
+                    <p>
+                        Twoja wizytówka w sieci.
+                        To ona jest pierwszym miejscem
+                        w sieci które zobaczy twój  klient.
+                        Możesz na niej umieścić nazwę firmy,
+                        swoje nazwisko, opis usług i wszystko
+                        inne czego tylko potrzebujesz.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <img src="~/images/section_begin_blue.png" class="begin_section_wave" />
+    </section>
+    <section class="section" id="project_provide_section">
+        <header>
+            Proces dostarczenia projektu
+        </header>
+        <div class="provide_secion_element">
+            <p class="provide_secion_element_header">Założenia</p>
+            <p class="provide_section_element_description">
+                Po kontakcie z nami rozpoczyna się proces zbierania założeń.
+                Właśnie w tym momencie są poznawane twoje potrzeby, określenie wymagań a także poznanie twojej wizji projektu.
+            </p>
+            <img src="~/images/arrow_bottom.png" />
+        </div>
+        <div class="provide_secion_element">
+            <p class="provide_secion_element_header">MVP</p>
+            <p class="provide_section_element_description">
+                Po procesie założeń przystępujemy do pracy.
+                W pierwszej kolejności dostarczone jest Tobie MVP - czyli wstępny projekt z gotowymi podstawowymi założeniami projektu.
+                Pozwala Ci on określić czy produkt który dostaniesz spełnia wymagania twoje i twoich klientów.
+            </p>
+            <img src="~/images/arrow_bottom.png" />
+        </div>
+        <div class="provide_secion_element">
+            <p class="provide_secion_element_header">Finalizacja</p>
+            <p class="provide_section_element_description">
+                Ostatni z procesów - po akceptacji
+                przez Ciebie MVP następują prace
+                skierowane na dostarczeniu Tobie
+                gotowego produktu.
+            </p>
+        </div>
+    </section>
+    <section>
+        <img src="~/images/section_begin_gray.png" id="section_gray_wave" class="begin_section_wave" />
+    </section>
+    <section class="section" id="what_we_use">
+        <header>
+            Stack technologiczy
+        </header>
+        <p class="what_we_use_header">Systemy operacyjne</p>
+        <div class="what_we_use_image_section">
+            <img class="default_rectangle_technology_image" src="~/images/1200px-MacOS_logo_(2017).svg.png" />
+            <img class="default_rectangle_technology_image" src="~/images/1200px-Windows_logo_-_2012_derivative.svg.png" />
+            <img class="default_rectangle_technology_image" src="~/images/Tux.png" />
+        </div>
+        <div class="what_we_use_image_section">
+            <img id="logo_ios" src="~/images/ios-logo1.png" />
+            <img id="logo_android" src="~/images/android-nowe-logo-1.png" />
+        </div>
+        <p class="what_we_use_header">Technologie</p>
+        <div class="what_we_use_image_section">
+            <img class="default_rectangle_technology_image" src="~/images/html&css.png" />
+            <img class="default_rectangle_technology_image" src="~/images/asp.net.png" />
+            <img class="default_rectangle_technology_image" src="~/images/Microsoft_SQL_server_logo.png" />
+        </div>
+        <div class="what_we_use_image_section">
+            <img class="default_rectangle_technology_image" src="~/images/mongodb.png" />
+            <img class="default_rectangle_technology_image" src="~/images/1200px-Electron_Software_Framework_Logo.svg.png" />
+
+        </div>
+        <div class="what_we_use_image_section">
+            <img class="default_rectangle_technology_image" src="~/images/react-native-logo-884x1024.png" />
+            <img id="logo_xamarin" src="~/images/1280px-Xamarin-logo.svg.png" />
+        </div>
+    </section>
+    <section class="section" id="contact_us">
+        <header>
+            Skontaktuj się
+        </header>
+        <form id="contact_us_form">
+            <label>Imię i nazwisko</label>
+            <input type="text" />
+
+            <label>Email</label>
+            <input type="text" />
+
+            <label>Temat</label>
+            <input type="text" />
+
+
+            <label>Treść wiadomości</label>
+            <textarea></textarea>
+            <input type="submit" value="WYŚLIJ" />
+
+        </form>
+    </section>
+    <section class="section" id="footer">
+        <p>
+            Copyright 2020 © Oyacode
+        </p>
+        <p>NIP: 9671436812</p>
+    </section>
+    <script src='~/js/site.js'></script>
+</body>
+</html>
